@@ -2,7 +2,7 @@
 
 This is version 0.45 of a collection of simple Python exercises constructed (but in many cases only found and collected) by Torbjörn Lager (torbjorn.lager@ling.gu.se). Most of them involve characters, words and phrases, rather than numbers, and are therefore suitable for students interested in language rather than math.
 
-Very simple exercises
+## Very simple exercises
 
 Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Python. (It is true that Python has the max() function built in, but writing it yourself is nevertheless a good exercise.)
 
@@ -101,7 +101,7 @@ Represent a small bilingual lexicon as a Python dictionary in the following fash
 
 Implement the higher order functions map(), filter() and reduce(). (They are built-in but writing them yourself may be a good exercise.)
 
-Simple exercises including I/O
+## Simple exercises including I/O
 
 Write a version of a palindrome recogniser that accepts a file name from the user, reads each line, and prints the line to the screen if it is a palindrome.
 
