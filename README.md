@@ -32,7 +32,6 @@ This is version 0.45 of a collection of simple Python exercises constructed (but
 *********
 *******
 ```
-
 13. The function max() from exercise 1) and the function max_of_three() from exercise 2) will only work for two and three numbers, respectively. But suppose we have a much larger number of numbers, or suppose we cannot tell in advance how many they are? Write a function max_in_list() that takes a list of numbers and returns the largest one.
 
 14. Write a program that maps a list of words into a list of integers representing the lengths of the correponding words.
@@ -47,12 +46,12 @@ This is version 0.45 of a collection of simple Python exercises constructed (but
 
 19. "99 Bottles of Beer" is a traditional song in the United States and Canada. It is popular to sing on long trips, as it has a very repetitive format which is easy to memorize, and can take a long time to sing. The song's simple lyrics are as follows:
 
-99 bottles of beer on the wall, 99 bottles of beer.
-Take one down, pass it around, 98 bottles of beer on the wall.
+...99 bottles of beer on the wall, 99 bottles of beer.
+...Take one down, pass it around, 98 bottles of beer on the wall.
 
-The same verse is repeated, each time with one fewer bottle. The song is completed when the singer or singers reach zero.
+...The same verse is repeated, each time with one fewer bottle. The song is completed when the singer or singers reach zero.
 
-Your task here is write a Python program capable of generating all the verses of the song.
+...Your task here is write a Python program capable of generating all the verses of the song.
 
 20. Represent a small bilingual lexicon as a Python dictionary in the following fashion {"merry":"god", "christmas":"jul", "and":"och", "happy":gott", "new":"nytt", "year":"år"} and use it to translate your Christmas cards from English into Swedish. That is, write a function translate() that takes a list of English words and returns a list of Swedish words.
 
