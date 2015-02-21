@@ -45,13 +45,14 @@ This is version 0.45 of a collection of simple Python exercises constructed (but
 18. A pangram is a sentence that contains all the letters of the English alphabet at least once, for example: The quick brown fox jumps over the lazy dog. Your task here is to write a function to check a sentence to see if it is a pangram or not.
 
 19. "99 Bottles of Beer" is a traditional song in the United States and Canada. It is popular to sing on long trips, as it has a very repetitive format which is easy to memorize, and can take a long time to sing. The song's simple lyrics are as follows:
+ 
+   99 bottles of beer on the wall, 99 bottles of beer.
 
-...99 bottles of beer on the wall, 99 bottles of beer.
-...Take one down, pass it around, 98 bottles of beer on the wall.
-
-...The same verse is repeated, each time with one fewer bottle. The song is completed when the singer or singers reach zero.
-
-...Your task here is write a Python program capable of generating all the verses of the song.
+   Take one down, pass it around, 98 bottles of beer on the wall.
+   
+   The same verse is repeated, each time with one fewer bottle. The song is completed when the singer or singers reach zero.
+   
+   Your task here is write a Python program capable of generating all the verses of the song.
 
 20. Represent a small bilingual lexicon as a Python dictionary in the following fashion {"merry":"god", "christmas":"jul", "and":"och", "happy":gott", "new":"nytt", "year":"år"} and use it to translate your Christmas cards from English into Swedish. That is, write a function translate() that takes a list of English words and returns a list of Swedish words.
 
