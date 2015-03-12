@@ -73,9 +73,9 @@ This is version 0.45 of a collection of simple Python exercises constructed (but
 
     Your task in this exercise is to implement an encoder/decoder of ROT-13. Once you're done, you will be able to read the following secret message:
 
-   Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!
+    Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!
 
-Note that since English has 26 characters, your ROT-13 program will be able to both encode and decode texts written in English.
+    Note that since English has 26 characters, your ROT-13 program will be able to both encode and decode texts written in English.
 
 23. Define a simple "spelling correction" function correct() that takes a string and sees to it that 1) two or more occurrences of the space character is compressed into one, and 2) inserts an extra space after a period if the period is directly followed by a letter. E.g. correct("This   is  very funny  and    cool.Indeed!") should return "This is very funny and cool. Indeed!" Tip: Use regular expressions!
 
