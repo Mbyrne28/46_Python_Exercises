@@ -12,7 +12,7 @@ This is version 0.45 of a collection of simple Python exercises constructed (but
 
 4. [Write a function that takes a character (i.e. a string of length 1) and returns True if it is a vowel, False otherwise.](q4.py)
 
-5. Write a function translate() that will translate a text into "rövarspråket" (Swedish for "robber's language"). That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
+5. [Write a function translate() that will translate a text into "rövarspråket" (Swedish for "robber's language"). That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".](q5.py)
 
 6. Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in a list of numbers. For example, sum([1, 2, 3, 4]) should return 10, and multiply([1, 2, 3, 4]) should return 24.
 
