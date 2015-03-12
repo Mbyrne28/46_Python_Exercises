@@ -29,10 +29,10 @@ This is version 0.45 of a collection of simple Python exercises constructed (but
 12. Define a procedure histogram() that takes a list of integers and prints a histogram to the screen. For example, histogram([4, 9, 7]) should print the following:
 
         ```
-****
-*********
-*******
-```
+        ****
+        *********
+        *******
+        ```
 
 
 13. The function max() from exercise 1) and the function max_of_three() from exercise 2) will only work for two and three numbers, respectively. But suppose we have a much larger number of numbers, or suppose we cannot tell in advance how many they are? Write a function max_in_list() that takes a list of numbers and returns the largest one.
