@@ -5,16 +5,18 @@
 # translate("this is fun") => "tothohisos isos fofunon".
 
 from q4 import is_a_vowel
+from test_fun import *
 
 def translate(a_string):
 	translation = ""
 
 	for a_char in a_string:
-		if is_a_vowel(a_char) == True:
+		if is_a_vowel(a_char) == True or a_char==" ":
 			translation += a_char
 		else:
 			translation += a_char + "o" + a_char
 
 	return translation
 
-print(translate("this is fun"), "tothohisos isos fofunon")
+#print(translate("this is fun"), "tothohisos isos fofunon")
+print(test_fun(translate("this is fun"), "tothohisos isos fofunon"))
