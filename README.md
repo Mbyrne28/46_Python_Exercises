@@ -4,7 +4,7 @@ This is version 0.45 of a collection of simple Python exercises constructed (but
 
 ## Very simple exercises
 
-1. [Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Python. (It is true that Python has the max() function built in, but writing it yourself is nevertheless a good exercise.)](Q1.py)
+1. [Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Python. (It is true that Python has the max() function built in, but writing it yourself is nevertheless a good exercise.)](q1.py)
 
 2. Define a function max_of_three() that takes three numbers as arguments and returns the largest of them.
 
