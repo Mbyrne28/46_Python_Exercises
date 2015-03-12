@@ -1,6 +1,5 @@
 # Define a function max() that takes two numbers as arguments and returns
 # the largest of them. Use the if-then-else construct available in Python.
-# (It is true that Python has the max() function built in,
 
 # test max(3,4) => 4
 # test max(4,3) => 4
