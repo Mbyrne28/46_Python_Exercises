@@ -9,12 +9,17 @@
 
 
 def sing():
+
 	plural = "s"
+
 	for bottle in range(99, 0, -1):
+
 		if bottle ==1:
 			plural=""
+
 		if bottle != 99:
 			print("Take one down, pass it around, %s bottle%s of beer on the wall." % (str(bottle), plural))
+
 		print("%s bottle%s of beer on the wall, %s bottles of beer." % (str(bottle), plural, str(bottle)))
 
 sing()
