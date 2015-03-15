@@ -14,7 +14,7 @@ def sing():
 		if bottle ==1:
 			plural=""
 		if bottle != 99:
-			print("Take one down, pass it around, " + str(bottle) +" bottle"+plural+" of beer on the wall.")
-		print(str(bottle) + " bottle"+ plural +" of beer on the wall, " + str(bottle) + " bottles of beer.")
+			print("Take one down, pass it around, %s bottle%s of beer on the wall." % (str(bottle), plural))
+		print("%s bottle%s of beer on the wall, %s bottles of beer." % (str(bottle), plural, str(bottle)))
 
 sing()
