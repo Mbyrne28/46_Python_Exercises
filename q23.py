@@ -9,23 +9,14 @@ import unittest
 import re
 
 def correct(s):
-	corrected=""
-	result=""
-	p = re.compile('(\s)+')
-	q = re.compile('\.(\S+)')
-
-	corrected = p.sub(" ", s)
-
-	corrected = q.split(corrected)
-
-	for i in range(1, len(corrected)):
-		result += corrected[i-1] + ". "
-
-	result = result[:-2]
-
+	# Add a space after each full point
+	add_space = re.sub("\.", ". ", s)
+	# shrink multiple spaces into one
+	result=re.sub('(\s)+', ' ', add_space)
 
 	return result
-correct("This   is  very funny  and    cool.Indeed!")
+
+print(correct("This   is  very.funny.and    cool indeed."))
 class test_correct(unittest.TestCase):
 
 	def test_mem(self):
